@@ -1,2 +1,7 @@
 {{page-title "Index"}}
 {{outlet}}
+<h1>Welcome to the Ember App</h1>
+<p>Country: {{model.country}}</p>
+<p>Language: {{model.language}}</p>
+<p>Username: {{model.username}}</p>
+<button {{on "click" this.goToHelloWorld}}>Click me to go to Hello World</button>
